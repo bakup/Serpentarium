@@ -1,2 +1,2 @@
 # Serpentarium
-IP адреса из TOR/VPN/Proxy и других рассадников
+IP адреса из TOR/VPN/Proxy и других рассадников ddos атак
