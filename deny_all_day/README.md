@@ -8,5 +8,5 @@ cd /tmp && wget https://github.com/bakup/Serpentarium/raw/main/deny_all_day/last
 ```
 #eth1 - external interface(To Internet)  
 ```bash
-/sbin/iptables -I INPUT -w -i eth1 -m set --match-set proxy src -j DROP  
+/sbin/iptables -I INPUT -w -i eth1 -m set --match-set webdeny src -j DROP  
 ```
