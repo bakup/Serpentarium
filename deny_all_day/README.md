@@ -1,8 +1,8 @@
 ## Deny_all  
 ```bash
 apt install ipset  
-/sbin/ipset destroy proxy  
-/sbin/ipset flush proxy  
+/sbin/ipset destroy webdeny   
+/sbin/ipset flush webdeny   
 cd /tmp && wget https://github.com/bakup/Serpentarium/raw/main/deny_all_day/last  
 /sbin/ipset restore -f -! /tmp/last && rm /tmp/last  
 ```
